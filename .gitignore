@@ -1,0 +1,60 @@
+# --- Byte-compiled / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+Books/
+exercism/
+
+# --- uv / pip ---
+.uv/
+uv.lock
+
+# --- Distribution / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+# --- Environment variables / secrets ---
+.env
+.env.local
+*.pem
+*.key
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Type checking / linting caches ---
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Data / model artifacts ---
+*.csv
+!sample_*.csv
+*.parquet
+*.pkl
+*.h5
+data/raw/
+data/processed/
+models/*.bin
+models/*.pt
+*.log
